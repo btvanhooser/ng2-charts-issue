@@ -24,7 +24,8 @@ const config: Config.InitialOptions = {
   },
   reporters: ['default'],
   moduleNameMapper: {
-    '^lodash-es$': 'lodash'
+    '^lodash-es$': 'lodash',
+    'ng2-charts': '<rootDir>/node_modules/ng2-charts/fesm2020/ng2-charts.mjs'
   }
 };
 export default config;
